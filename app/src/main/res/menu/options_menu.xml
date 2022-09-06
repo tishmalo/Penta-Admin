@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:title="HOME"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        />
+
+    <item
+        android:title="SCHOOL TERM"
+        android:id="@+id/term"
+        android:icon="@drawable/ic_baseline_calendar_today_24"
+        />
+
+
+
+
+    <item android:title="ACTION">
+        <menu>
+            <group android:checkableBehavior="single">
+
+
+                <item
+                    android:title="UPDATE POSTS"
+                    android:id="@+id/posts"
+                    android:icon="@drawable/ic_baseline_system_update_24"
+                    />
+
+            </group>
+        </menu>
+    </item>
+
+
+
+
+    <item android:title="ACTION">
+        <menu>
+            <group android:checkableBehavior="single">
+
+
+                <item
+                    android:title="LOGOUT"
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_baseline_login_24"
+                    />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "508366801155",
+    "firebase_url": "https://penta-school-portal-default-rtdb.firebaseio.com",
+    "project_id": "penta-school-portal",
+    "storage_bucket": "penta-school-portal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508366801155:android:f6fe11785c6f66ee748136",
+        "android_client_info": {
+          "package_name": "com.example.pentaadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508366801155-7d20berukf38mlhmvqa6d3ii3nceh4hj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA54FP3R1iddXBbTEx3ovF_lHIuesu_G8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508366801155-7d20berukf38mlhmvqa6d3ii3nceh4hj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508366801155:android:80131fa248c73b4c748136",
+        "android_client_info": {
+          "package_name": "com.example.pentaschoolportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508366801155-7d20berukf38mlhmvqa6d3ii3nceh4hj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA54FP3R1iddXBbTEx3ovF_lHIuesu_G8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508366801155-7d20berukf38mlhmvqa6d3ii3nceh4hj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508366801155:android:63c5f7492b022482748136",
+        "android_client_info": {
+          "package_name": "com.example.pentasteachersportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508366801155-7d20berukf38mlhmvqa6d3ii3nceh4hj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA54FP3R1iddXBbTEx3ovF_lHIuesu_G8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508366801155-7d20berukf38mlhmvqa6d3ii3nceh4hj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

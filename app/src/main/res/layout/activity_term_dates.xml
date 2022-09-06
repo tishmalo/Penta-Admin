@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TermDates">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/barLayout1">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolBar"
+            android:background="#0F2E63"
+            />
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:background="@color/background"
+        >
+
+        <RelativeLayout
+            android:layout_width="344dp"
+            android:layout_height="match_parent"
+            android:background="@color/background">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/patientpicture"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:src="@drawable/admin"
+
+                />
+
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/patientpicture"
+                android:layout_marginTop="30dp"
+                android:textSize="35sp"
+                android:layout_centerInParent="true"
+                android:text="01/01/1999" />
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/submit"
+            android:layout_below="@id/date"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/submit"/>
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

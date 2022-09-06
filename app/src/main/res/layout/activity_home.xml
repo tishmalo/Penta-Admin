@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:openDrawer="start"
+    android:fitsSystemWindows="true"
+    android:id="@+id/drawerLayout1"
+    tools:context=".Home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            android:id="@+id/toolBar2"
+
+            android:background="#0F2E63"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+
+            />
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolBar2" />
+
+
+
+    </RelativeLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationBar1"
+        app:menu="@menu/options_menu"
+        android:layout_gravity="start"
+        app:itemIconTint="@drawable/navigation_selector"
+        app:itemTextColor="@drawable/navigation_view_from_selected"
+        app:headerLayout="@layout/admin"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

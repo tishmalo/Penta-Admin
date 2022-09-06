@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/barLayout1">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolBar"
+            android:background="#0F2E63"
+
+            />
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:background="@color/background"
+        >
+
+        <RelativeLayout
+            android:layout_width="344dp"
+            android:layout_height="match_parent"
+            android:background="@color/background">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/patientpicture"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:src="@drawable/admin"
+
+
+                />
+
+
+
+
+            <EditText
+                android:id="@+id/LecName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/patientpicture"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_centerHorizontal="true"
+                android:hint="POST TITLE"
+                android:textColor="@color/Text" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/description"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/LecName"
+                android:hint="POST DESCRIPTION"
+                android:layout_marginTop="40dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/post_pic"
+                android:layout_below="@+id/description"
+                android:layout_centerHorizontal="true"
+                android:text="Choose photo"
+                android:layout_marginTop="40dp"/>
+
+
+
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/proceed"
+                android:layout_below="@id/post_pic"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:text="POST"/>
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>
